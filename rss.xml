@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ryan650</title><description>我的博客</description><link>https://ryan650.cn/</link><language>zh_CN</language><item><title>Markdown Tutorial</title><link>https://ryan650.cn/posts/markdown-tutorial/</link><guid isPermaLink="true">https://ryan650.cn/posts/markdown-tutorial/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown Tutorial&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ryan650</title><description>我的博客</description><link>https://blog.ryan650.cn/</link><language>zh_CN</language><item><title>Markdown Tutorial</title><link>https://blog.ryan650.cn/posts/markdown-tutorial/</link><guid isPermaLink="true">https://blog.ryan650.cn/posts/markdown-tutorial/</guid><description>A simple example of a Markdown blog post.</description><pubDate>Mon, 20 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Markdown Tutorial&lt;/h1&gt;
 &lt;p&gt;A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#block-elements&quot;&gt;Block Elements&lt;/a&gt;
@@ -708,7 +708,7 @@ This is another regular paragraph.
 &lt;strong&gt;No Work&lt;/strong&gt;
 &amp;lt;/div&amp;gt;&lt;/p&gt;
 &lt;hr /&gt;
-</content:encoded></item><item><title>Image Gallery Grid: Syntax and Complete Examples</title><link>https://ryan650.cn/posts/image-grid-demo/</link><guid isPermaLink="true">https://ryan650.cn/posts/image-grid-demo/</guid><description>A complete guide to image gallery grid syntax, parameters, cropping, responsive behavior, captions, and lightbox navigation.</description><pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code&gt;:::grid&lt;/code&gt; is the blog&apos;s image gallery container directive. It arranges ordinary Markdown images in a responsive grid with a consistent aspect ratio and automatically enables lightbox viewing. Use it for article images, screenshots, portfolios, or small albums.&lt;/p&gt;
+</content:encoded></item><item><title>Image Gallery Grid: Syntax and Complete Examples</title><link>https://blog.ryan650.cn/posts/image-grid-demo/</link><guid isPermaLink="true">https://blog.ryan650.cn/posts/image-grid-demo/</guid><description>A complete guide to image gallery grid syntax, parameters, cropping, responsive behavior, captions, and lightbox navigation.</description><pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code&gt;:::grid&lt;/code&gt; is the blog&apos;s image gallery container directive. It arranges ordinary Markdown images in a responsive grid with a consistent aspect ratio and automatically enables lightbox viewing. Use it for article images, screenshots, portfolios, or small albums.&lt;/p&gt;
 &lt;p&gt;Images in the same gallery use the same card ratio. By default, center cropping fills every card and keeps each row tidy; clicking an image opens the complete original in a lightbox. Every gallery has its own lightbox group and does not mix with other images in the post.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This post is both feature documentation and a visual test page. View the examples at desktop, tablet, and mobile widths, then click any image to verify lightbox grouping.&lt;/p&gt;
@@ -724,8 +724,8 @@ This is another regular paragraph.
 &lt;p&gt;Each image must occupy its own paragraph, with a blank line between images. Keep only images in a gallery; write paragraphs, lists, and code blocks outside the container.&lt;/p&gt;
 &lt;p&gt;Here is the result of the minimal syntax. Without parameters, the grid uses three columns, a &lt;code&gt;16/10&lt;/code&gt; ratio, and &lt;code&gt;cover&lt;/code&gt; by default.&lt;/p&gt;
 &lt;p&gt;:::grid
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-1.webp&quot; alt=&quot;Minimal syntax result: first image&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-2.webp&quot; alt=&quot;Minimal syntax result: second image&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-1.webp&quot; alt=&quot;Minimal syntax result: first image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-2.webp&quot; alt=&quot;Minimal syntax result: second image&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Parameters at a Glance&lt;/h2&gt;
 &lt;p&gt;Write all parameters in braces after the opening directive: &lt;code&gt;:::grid{parameter=&quot;value&quot;}&lt;/code&gt;.&lt;/p&gt;
@@ -770,9 +770,9 @@ This is another regular paragraph.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The following result uses the three-column landscape syntax above. Compare the card ratio, column count, and the way a title takes precedence over alt text as the caption:&lt;/p&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;16/9&quot; fit=&quot;cover&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-1.webp&quot; alt=&quot;Parameter example: first landscape image&quot; title=&quot;Landscape caption 1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-2.webp&quot; alt=&quot;Parameter example: second landscape image&quot; title=&quot;Landscape caption 2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-3.webp&quot; alt=&quot;Parameter example: third landscape image&quot; title=&quot;Landscape caption 3&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-1.webp&quot; alt=&quot;Parameter example: first landscape image&quot; title=&quot;Landscape caption 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-2.webp&quot; alt=&quot;Parameter example: second landscape image&quot; title=&quot;Landscape caption 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-3.webp&quot; alt=&quot;Parameter example: third landscape image&quot; title=&quot;Landscape caption 3&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Captions and Alt Text&lt;/h2&gt;
 &lt;p&gt;An image&apos;s alt text serves both as accessible alternative text and as its default caption. When an image has an optional title, the title is used as the caption instead:&lt;/p&gt;
@@ -781,9 +781,9 @@ This is another regular paragraph.
 &lt;p&gt;In the same row, captions align to the bottom of every card. A wrapping caption does not make the others float at a different height. Ratio text such as &lt;code&gt;3:4&lt;/code&gt; and &lt;code&gt;16:9&lt;/code&gt; can be written directly in body text, headings, and alt text without escaping.&lt;/p&gt;
 &lt;p&gt;This example demonstrates the default alt-text caption, an explicit title caption, and bottom alignment for a longer caption:&lt;/p&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;1/1&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-1.webp&quot; alt=&quot;This image has no title, so its alt text is the caption&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-2.webp&quot; alt=&quot;Second square image with accessible alt text&quot; title=&quot;This title is displayed as the caption&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-3.webp&quot; alt=&quot;Accessible description of a 3:4 poster&quot; title=&quot;This is a longer caption for checking that every caption remains aligned to the bottom of its card when it wraps&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-1.webp&quot; alt=&quot;This image has no title, so its alt text is the caption&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-2.webp&quot; alt=&quot;Second square image with accessible alt text&quot; title=&quot;This title is displayed as the caption&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-3.webp&quot; alt=&quot;Accessible description of a 3:4 poster&quot; title=&quot;This is a longer caption for checking that every caption remains aligned to the bottom of its card when it wraps&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Layout and Cropping&lt;/h2&gt;
 &lt;p&gt;Desktop layouts use the number of columns specified by &lt;code&gt;columns&lt;/code&gt;. Below &lt;code&gt;768px&lt;/code&gt;, grids use at most two columns; below &lt;code&gt;480px&lt;/code&gt;, they switch to one column. The card wrapper fixes the &lt;code&gt;aspect&lt;/code&gt; ratio and clips rounded corners, while the image fills the card without the theme&apos;s default image margins.&lt;/p&gt;
@@ -806,14 +806,14 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;16/9&quot; fit=&quot;cover&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;First cover result&quot; title=&quot;Cover: center crop&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Second cover result&quot; title=&quot;Cover: fill the card&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Third cover result&quot; title=&quot;Cover: a more consistent layout&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;First cover result&quot; title=&quot;Cover: center crop&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Second cover result&quot; title=&quot;Cover: fill the card&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Third cover result&quot; title=&quot;Cover: a more consistent layout&quot; /&gt;
 :::&lt;/p&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;16/9&quot; fit=&quot;contain&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;First contain result&quot; title=&quot;Contain: preserve the complete original&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Second contain result&quot; title=&quot;Contain: empty space may appear&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Third contain result&quot; title=&quot;Contain: suitable for edge details&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;First contain result&quot; title=&quot;Contain: preserve the complete original&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Second contain result&quot; title=&quot;Contain: empty space may appear&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Third contain result&quot; title=&quot;Contain: suitable for edge details&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Default Configuration&lt;/h2&gt;
 &lt;p&gt;Without attributes, the default is three columns, a &lt;code&gt;16/10&lt;/code&gt; ratio, and &lt;code&gt;cover&lt;/code&gt; cropping. These three portrait images verify default cropping and captions.&lt;/p&gt;
@@ -826,9 +826,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;Default configuration: portrait image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Default configuration: portrait image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Default configuration: portrait image three&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;Default configuration: portrait image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Default configuration: portrait image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Default configuration: portrait image three&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Three-Column Portraits: 3:4&lt;/h2&gt;
 &lt;p&gt;With &lt;code&gt;aspect=&quot;3/4&quot;&lt;/code&gt;, the three portrait images fill consistently proportioned vertical cards. If an original image has a different ratio, &lt;code&gt;cover&lt;/code&gt; crops its edges from the center.&lt;/p&gt;
@@ -841,9 +841,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;3/4&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;3:4 test image one&quot; title=&quot;Portrait 1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;3:4 test image two&quot; title=&quot;Portrait 2&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;3:4 test image three&quot; title=&quot;Portrait 3&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;3:4 test image one&quot; title=&quot;Portrait 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;3:4 test image two&quot; title=&quot;Portrait 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;3:4 test image three&quot; title=&quot;Portrait 3&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Three-Column Landscapes: 16:9&lt;/h2&gt;
 &lt;p&gt;This set demonstrates a common video-cover ratio in a three-column layout. Cropping is minimal when the landscape images are close to the card ratio.&lt;/p&gt;
@@ -856,9 +856,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;16/9&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-1.webp&quot; alt=&quot;16:9 test image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-2.webp&quot; alt=&quot;16:9 test image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-3.webp&quot; alt=&quot;16:9 test image three&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-1.webp&quot; alt=&quot;16:9 test image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-2.webp&quot; alt=&quot;16:9 test image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-3.webp&quot; alt=&quot;16:9 test image three&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Two-Column Squares: 1:1&lt;/h2&gt;
 &lt;p&gt;Two columns work well when larger preview cards are needed. The third image moves to the next row. The final row keeps its grid-track width instead of stretching images to fill the row.&lt;/p&gt;
@@ -871,9 +871,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;2&quot; aspect=&quot;1/1&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/mixed-square-1.webp&quot; alt=&quot;1:1 test image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/mixed-square-2.webp&quot; alt=&quot;1:1 test image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/mixed-square-3.webp&quot; alt=&quot;1:1 test image three&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/mixed-square-1.webp&quot; alt=&quot;1:1 test image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/mixed-square-2.webp&quot; alt=&quot;1:1 test image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/mixed-square-3.webp&quot; alt=&quot;1:1 test image three&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Four Columns with &lt;code&gt;contain&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;fit=&quot;contain&quot;&lt;/code&gt; does not crop the original image. When the image ratio differs from the card ratio, the theme background remains visible. This is intentional, not a layout issue. It also verifies that four-column grids and separate lightbox groups do not interfere with each other.&lt;/p&gt;
@@ -886,9 +886,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;4&quot; aspect=&quot;16/9&quot; fit=&quot;contain&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;Contain: portrait image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Contain: portrait image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Contain: portrait image three&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;Contain: portrait image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Contain: portrait image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Contain: portrait image three&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Single-Column Detail Image&lt;/h2&gt;
 &lt;p&gt;One column is suitable when an image needs a larger reading size. It remains one column on desktop, tablet, and mobile, and the original is still available in the lightbox.&lt;/p&gt;
@@ -897,7 +897,7 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;1&quot; aspect=&quot;16/9&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-1.webp&quot; alt=&quot;Single-column test image&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-1.webp&quot; alt=&quot;Single-column test image&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Sparse Five-Column Row&lt;/h2&gt;
 &lt;p&gt;Five columns verify a higher supported column count. With only three images, the final row remains left-aligned instead of stretching the images.&lt;/p&gt;
@@ -910,9 +910,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;5&quot; aspect=&quot;1/1&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/mixed-square-1.webp&quot; alt=&quot;Five-column test image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/mixed-square-2.webp&quot; alt=&quot;Five-column test image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/mixed-square-3.webp&quot; alt=&quot;Five-column test image three&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/mixed-square-1.webp&quot; alt=&quot;Five-column test image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/mixed-square-2.webp&quot; alt=&quot;Five-column test image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/mixed-square-3.webp&quot; alt=&quot;Five-column test image three&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Mixed Images in Six Columns&lt;/h2&gt;
 &lt;p&gt;Six columns are the current maximum. Mixing landscape and portrait images verifies &lt;code&gt;cover&lt;/code&gt; cropping, captions on narrow cards, and a dense desktop layout. For readable article content, two to four columns are usually preferable.&lt;/p&gt;
@@ -931,12 +931,12 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;6&quot; aspect=&quot;1/1&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;Six-column test image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Six-column test image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Six-column test image three&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-1.webp&quot; alt=&quot;Six-column test image four&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-2.webp&quot; alt=&quot;Six-column test image five&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/feature-landscape-3.webp&quot; alt=&quot;Six-column test image six&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-1.webp&quot; alt=&quot;Six-column test image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-2.webp&quot; alt=&quot;Six-column test image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/default-portrait-3.webp&quot; alt=&quot;Six-column test image three&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-1.webp&quot; alt=&quot;Six-column test image four&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-2.webp&quot; alt=&quot;Six-column test image five&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/feature-landscape-3.webp&quot; alt=&quot;Six-column test image six&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Four-Column Squares: 1:1&lt;/h2&gt;
 &lt;p&gt;Four square images with the same ratio are a typical four-column layout. Desktop displays all four in one row; tablet collapses to two columns and mobile to one.&lt;/p&gt;
@@ -951,10 +951,10 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;4&quot; aspect=&quot;1/1&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-1.webp&quot; alt=&quot;Square image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-2.webp&quot; alt=&quot;Square image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-3.webp&quot; alt=&quot;Square image three&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-4.webp&quot; alt=&quot;Square image four&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-1.webp&quot; alt=&quot;Square image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-2.webp&quot; alt=&quot;Square image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-3.webp&quot; alt=&quot;Square image three&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-4.webp&quot; alt=&quot;Square image four&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Six-Column Landscapes: 16:9&lt;/h2&gt;
 &lt;p&gt;Six landscape columns work well for thumbnail previews, portfolios, and screenshot indexes. Even if original ratios differ slightly, &lt;code&gt;cover&lt;/code&gt; fills every &lt;code&gt;16/9&lt;/code&gt; card consistently.&lt;/p&gt;
@@ -973,12 +973,12 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;6&quot; aspect=&quot;16/9&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-1.webp&quot; alt=&quot;Landscape image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-2.webp&quot; alt=&quot;Landscape image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-3.webp&quot; alt=&quot;Landscape image three&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-4.webp&quot; alt=&quot;Landscape image four&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-5.webp&quot; alt=&quot;Landscape image five&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/landscape-6.webp&quot; alt=&quot;Landscape image six&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-1.webp&quot; alt=&quot;Landscape image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-2.webp&quot; alt=&quot;Landscape image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-3.webp&quot; alt=&quot;Landscape image three&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-4.webp&quot; alt=&quot;Landscape image four&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-5.webp&quot; alt=&quot;Landscape image five&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/landscape-6.webp&quot; alt=&quot;Landscape image six&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Three-Column Portraits: 3:4&lt;/h2&gt;
 &lt;p&gt;This group of six portrait images demonstrates a common layout for people, posters, or mobile screenshots. The images form two rows of three, with captions aligned to the bottom.&lt;/p&gt;
@@ -997,12 +997,12 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;3/4&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/portrait-1.webp&quot; alt=&quot;Portrait image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/portrait-2.webp&quot; alt=&quot;Portrait image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/portrait-3.webp&quot; alt=&quot;Portrait image three&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/portrait-4.webp&quot; alt=&quot;Portrait image four&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/portrait-5.webp&quot; alt=&quot;Portrait image five&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/portrait-6.webp&quot; alt=&quot;Portrait image six&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/portrait-1.webp&quot; alt=&quot;Portrait image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/portrait-2.webp&quot; alt=&quot;Portrait image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/portrait-3.webp&quot; alt=&quot;Portrait image three&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/portrait-4.webp&quot; alt=&quot;Portrait image four&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/portrait-5.webp&quot; alt=&quot;Portrait image five&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/portrait-6.webp&quot; alt=&quot;Portrait image six&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Edge-Critical Content: &lt;code&gt;cover&lt;/code&gt; and Lightbox&lt;/h2&gt;
 &lt;p&gt;These images contain important text or details near their edges. &lt;code&gt;cover&lt;/code&gt; keeps the grid tidy but may crop those edges; click an image to view the uncropped original in the lightbox. Use clear captions for edge-sensitive images, or use &lt;code&gt;contain&lt;/code&gt; below.&lt;/p&gt;
@@ -1015,9 +1015,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;16/9&quot; fit=&quot;cover&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/critical-1.webp&quot; alt=&quot;First edge-critical image&quot; title=&quot;Open the lightbox to view the complete edge content&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/critical-2.webp&quot; alt=&quot;Second edge-critical image&quot; title=&quot;Open the lightbox to view the complete edge content&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/critical-3.webp&quot; alt=&quot;Third edge-critical image&quot; title=&quot;Open the lightbox to view the complete edge content&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/critical-1.webp&quot; alt=&quot;First edge-critical image&quot; title=&quot;Open the lightbox to view the complete edge content&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/critical-2.webp&quot; alt=&quot;Second edge-critical image&quot; title=&quot;Open the lightbox to view the complete edge content&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/critical-3.webp&quot; alt=&quot;Third edge-critical image&quot; title=&quot;Open the lightbox to view the complete edge content&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Extreme Ratios with &lt;code&gt;contain&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;For banners, long screenshots, and other extreme image ratios, &lt;code&gt;contain&lt;/code&gt; displays the complete original. Unlike &lt;code&gt;cover&lt;/code&gt;, it may leave theme-background space, but it never crops content.&lt;/p&gt;
@@ -1030,9 +1030,9 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;3&quot; aspect=&quot;16/9&quot; fit=&quot;contain&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/extreme-1.webp&quot; alt=&quot;Extreme-ratio image one&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/extreme-2.webp&quot; alt=&quot;Extreme-ratio image two&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/extreme-3.webp&quot; alt=&quot;Extreme-ratio image three&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/extreme-1.webp&quot; alt=&quot;Extreme-ratio image one&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/extreme-2.webp&quot; alt=&quot;Extreme-ratio image two&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/extreme-3.webp&quot; alt=&quot;Extreme-ratio image three&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Transparent Images&lt;/h2&gt;
 &lt;p&gt;Transparent images reveal the card&apos;s theme background. This single-column &lt;code&gt;contain&lt;/code&gt; example makes the transparent areas, original edges, and lightbox behavior easy to inspect.&lt;/p&gt;
@@ -1041,7 +1041,7 @@ This is another regular paragraph.
 :::
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;:::grid{columns=&quot;1&quot; aspect=&quot;16/9&quot; fit=&quot;contain&quot;}
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/transparent-1.webp&quot; alt=&quot;Transparent-background test image&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/transparent-1.webp&quot; alt=&quot;Transparent-background test image&quot; /&gt;
 :::&lt;/p&gt;
 &lt;h2&gt;Lightbox Navigation&lt;/h2&gt;
 &lt;p&gt;Click any image in a grid to open the Fancybox lightbox. There you can zoom, rotate, enter fullscreen, view thumbnails, and navigate with the arrow keys. Navigation is limited to the current &lt;code&gt;:::grid&lt;/code&gt; container: for example, clicking &quot;16:9 test image one&quot; only opens the other two landscape images in that section.&lt;/p&gt;
@@ -1055,7 +1055,7 @@ This is another regular paragraph.
 &lt;li&gt;Portrait images in &quot;Four Columns with &lt;code&gt;contain&lt;/code&gt;&quot; are fully visible with empty space and no cropping.&lt;/li&gt;
 &lt;li&gt;Five- and six-column grids retain their specified column count on wide screens, then collapse to two or one column according to the responsive rules.&lt;/li&gt;
 &lt;/ol&gt;
-</content:encoded></item><item><title>Markdown Extended Features</title><link>https://ryan650.cn/posts/markdown-extended/</link><guid isPermaLink="true">https://ryan650.cn/posts/markdown-extended/</guid><description>GitHub cards, callouts, code groups, Wiki Links, image grids, PlantUML, and other enhanced Markdown features in Mizuki.</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub Repository Cards&lt;/h2&gt;
+</content:encoded></item><item><title>Markdown Extended Features</title><link>https://blog.ryan650.cn/posts/markdown-extended/</link><guid isPermaLink="true">https://blog.ryan650.cn/posts/markdown-extended/</guid><description>GitHub cards, callouts, code groups, Wiki Links, image grids, PlantUML, and other enhanced Markdown features in Mizuki.</description><pubDate>Wed, 01 May 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;GitHub Repository Cards&lt;/h2&gt;
 &lt;p&gt;You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.&lt;/p&gt;
 &lt;p&gt;::github{repo=&quot;LyraVoid/Mizuki&quot;}&lt;/p&gt;
 &lt;p&gt;Create a GitHub repository card with the code &lt;code&gt;::github{repo=&quot;LyraVoid/Mizuki&quot;}&lt;/code&gt;.&lt;/p&gt;
@@ -1202,8 +1202,8 @@ See [[markdown-mermaid|the Mermaid examples]].
 &lt;p&gt;Two or more adjacent standalone images are grouped into a responsive gallery.
 Explicit &lt;code&gt;:::grid&lt;/code&gt; directives remain available when custom columns, aspect
 ratio, or object fitting are required.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-1.webp&quot; alt=&quot;Square demo 1&quot; /&gt;
-&lt;img src=&quot;https://ryan650.cn/images/demos/image-grid-demo/square-2.webp&quot; alt=&quot;Square demo 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-1.webp&quot; alt=&quot;Square demo 1&quot; /&gt;
+&lt;img src=&quot;https://blog.ryan650.cn/images/demos/image-grid-demo/square-2.webp&quot; alt=&quot;Square demo 2&quot; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;![First image](/images/first.webp)
 ![Second image](/images/second.webp)
 &lt;/code&gt;&lt;/pre&gt;
@@ -1228,7 +1228,7 @@ Alice -&amp;gt; Bob: Hello
 &lt;p&gt;$$
 \ce{H2O + CO2 -&amp;gt; H2CO3}
 $$&lt;/p&gt;
-</content:encoded></item><item><title>Simple Guides for Mizuki</title><link>https://ryan650.cn/posts/guide/</link><guid isPermaLink="true">https://ryan650.cn/posts/guide/</guid><description>How to use this blog template.</description><pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This blog template is built with &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt;. For the things that are not mentioned in this guide, you may find the answers in the &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro Docs&lt;/a&gt;.&lt;/p&gt;
+</content:encoded></item><item><title>Simple Guides for Mizuki</title><link>https://blog.ryan650.cn/posts/guide/</link><guid isPermaLink="true">https://blog.ryan650.cn/posts/guide/</guid><description>How to use this blog template.</description><pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This blog template is built with &lt;a href=&quot;https://astro.build/&quot;&gt;Astro&lt;/a&gt;. For the things that are not mentioned in this guide, you may find the answers in the &lt;a href=&quot;https://docs.astro.build/&quot;&gt;Astro Docs&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Front-matter of Posts&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: My First Blog Post
@@ -1306,7 +1306,7 @@ draft: false
     ├── cover.webp
     └── index.md
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded></item><item><title>Markdown Mermaid</title><link>https://ryan650.cn/posts/markdown-mermaid/</link><guid isPermaLink="true">https://ryan650.cn/posts/markdown-mermaid/</guid><description>A simple example of a Markdown blog post with Mermaid.</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Complete Guide to Markdown with Mermaid Diagrams&lt;/h1&gt;
+</content:encoded></item><item><title>Markdown Mermaid</title><link>https://blog.ryan650.cn/posts/markdown-mermaid/</link><guid isPermaLink="true">https://blog.ryan650.cn/posts/markdown-mermaid/</guid><description>A simple example of a Markdown blog post with Mermaid.</description><pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Complete Guide to Markdown with Mermaid Diagrams&lt;/h1&gt;
 &lt;p&gt;This article demonstrates how to create various complex diagrams using Mermaid in Markdown documents, including flowcharts, sequence diagrams, Gantt charts, class diagrams, and state diagrams.&lt;/p&gt;
 &lt;h2&gt;Flowchart Example&lt;/h2&gt;
 &lt;p&gt;Flowcharts are excellent for representing processes or algorithm steps.&lt;/p&gt;
@@ -1457,7 +1457,7 @@ draft: false
 &lt;p&gt;Mermaid is a powerful tool for creating various types of diagrams in Markdown documents. This article demonstrated how to use flowcharts, sequence diagrams, Gantt charts, class diagrams, state diagrams, and pie charts. These diagrams can help you express complex concepts, processes, and data structures more clearly.&lt;/p&gt;
 &lt;p&gt;To use Mermaid, simply specify the mermaid language in a code block and describe the diagram using concise text syntax. Mermaid will automatically convert these descriptions into beautiful visual diagrams.&lt;/p&gt;
 &lt;p&gt;Try using Mermaid diagrams in your next technical blog post or project documentation - they will make your content more professional and easier to understand!&lt;/p&gt;
-</content:encoded></item><item><title>Include Video in the Posts</title><link>https://ryan650.cn/posts/video/</link><guid isPermaLink="true">https://ryan650.cn/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
+</content:encoded></item><item><title>Include Video in the Posts</title><link>https://blog.ryan650.cn/posts/video/</link><guid isPermaLink="true">https://blog.ryan650.cn/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: Include Video in the Post
 published: 2023-10-19

@@ -3,4 +3,4 @@ Disallow: /
 Allow: /$
 Allow: /posts/
 
-Sitemap: https://ryan650.cn/sitemap-index.xml
+Sitemap: https://blog.ryan650.cn/sitemap-index.xml
