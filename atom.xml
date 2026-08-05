@@ -1,10 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Ryan650</title>
-  <subtitle>我的博客</subtitle>
+  <subtitle>Ryan650's blog</subtitle>
   <link href="https://blog.ryan650.cn/" rel="alternate" type="text/html"/>
   <link href="https://blog.ryan650.cn/atom.xml" rel="self" type="application/atom+xml"/>
   <id>https://blog.ryan650.cn/</id>
-  <updated>2026-08-05T03:24:17.808Z</updated>
+  <updated>2026-08-05T05:39:45.382Z</updated>
   <language>zh_CN</language>
+  <entry>
+    <title>记一次个人博客建站＆踩坑经历</title>
+    <link href="https://blog.ryan650.cn/posts/8-5-26/" rel="alternate" type="text/html"/>
+    <id>https://blog.ryan650.cn/posts/8-5-26/</id>
+    <published>2026-08-05T00:00:00.000Z</published>
+    <updated>2026-08-05T00:00:00.000Z</updated>
+    <summary>AI太好用了你们知道吗。</summary>
+    <content type="html"><![CDATA[<h1>记一次个人博客建站＆踩坑经历</h1>
+<h3>——AI太好用了你们知道吗。</h3>
+<p><img src="https://blog.ryan650.cn/images/8-5-26/1.png" alt="" />
+起因：在B站看到了cf自建邮箱教程觉得很好玩想要建一个玩一下。
+跟着教程走到一半发现我没域名建不了，首先是上DigitalPlat免费搞了一个域名
+<img src="https://blog.ryan650.cn/images/8-5-26/0.png" alt="" />
+(细节manent free)
+然后上CF托管这个域名，结果...
+<img src="https://blog.ryan650.cn/images/8-5-26/0.1.jpeg" alt="" />
+CF不知从什么时候开始不给子域托管了。
+我心碎。
+然后脑子一热上阿里云买了一个 ryan650.cn。
+<img src="https://blog.ryan650.cn/images/8-5-26/2.jpeg" alt="" />
+实名认证等通过审核又等了大半天.
+好不容易等审核通过了接着跟教程走，把网站托管到cf上。
+然后开始配置SQL数据库,Workers RV和<strong>R2对象存储</strong>...
+<img src="https://blog.ryan650.cn/images/8-5-26/3.jpeg" alt="" />
+额...这不就尴尬了吗,我哪来的信用卡给你绑定，我还尝试绑储蓄卡上去 结果显然是失败的。
+然后我问了deepseek,他说R2对象存储是用来存附件的 如果不需要可以不设置。
+在配置到最后一步的时候我翻了翻评论区...
+<img src="https://blog.ryan650.cn/images/8-5-26/4.png" alt="" />
+看到这条评论,阿里企业邮箱这个很久以前不知从哪听来的名词突然窜入了我的脑中，遂打开阿里云查看...
+发现还真有这么个东西。
+<img src="https://blog.ryan650.cn/images/8-5-26/5.png" alt="" />
+(这是配置好的截图)
+这时候就给我气笑了，合着为了饺子醋做了一盘饺子，最后发现那一盘饺子自带了醋，还比我原来想蘸的饺子醋好吃。</p>
+<p>整了半天啥也没整明白 最后邮箱确实是搞到了 <strong>不过约等于是我用七十多买的...</strong></p>
+<p>第二天一早起来，仔细想了想，不能浪费了，建个blog站吧。</p>
+<p>然后开始和我的DeepSeek小姐一顿交流，我和她说想建一个明日方舟风格的blog，d小姐奋笔疾书写了半天给我整了个这玩意出来
+<img src="https://blog.ryan650.cn/images/8-5-26/6.png" alt="" />
+效果也是不尽人意啊，也是只能说和明日方舟的平面设计毫不相干吧。
+遂上bilibili搜索明日方舟风格blog：
+<img src="https://blog.ryan650.cn/images/8-5-26/7.png" alt="" />
+过程...
+<img src="https://blog.ryan650.cn/images/8-5-26/8.png" alt="" />
+让我注册Notion，那我就注册呗
+<img src="https://blog.ryan650.cn/images/8-5-26/9.png" alt="" />
+又让我注册vercel,那我也注册呗
+<img src="https://blog.ryan650.cn/images/8-5-26/10.png" alt="" />
+额...遂放弃这个很好看的终末地风格blog。
+转而部署Mizuki，部署的过程意外的很顺利，拉源码，建仓库，Github Actions＆Pages启动，没遇到什么太大的错误，遇到了D小姐也是直接帮我解决了，AI太好用了你们知道吗（
+<img src="https://blog.ryan650.cn/images/8-5-26/11.png" alt="" />
+最终效果：
+<img src="https://blog.ryan650.cn/images/8-5-26/12.png" alt="" />
+背景图接了一个随机二次元图片api(https://blog.yeqing.net/acg-api/)
+音乐播放器换成了网易云歌单（都是AI帮我接的）
+全程都没怎么写代码，只是在和ai扣字，配合她操作
+泰Vibe辣
+<strong>2026-8-5</strong>
+<strong>作业还没写怎么办啊啊啊</strong></p>
+]]></content>
+    <author>
+      <name>Ryan650</name>
+    </author>
+    <category term="杂谈"></category>
+  </entry>
+  <entry>
+    <title>你好，世界</title>
+    <link href="https://blog.ryan650.cn/posts/hello-world/" rel="alternate" type="text/html"/>
+    <id>https://blog.ryan650.cn/posts/hello-world/</id>
+    <published>2026-08-05T00:00:00.000Z</published>
+    <updated>2026-08-05T00:00:00.000Z</updated>
+    <summary>我的第一篇博客文章</summary>
+    <content type="html"><![CDATA[<h2>欢迎</h2>
+<p>这是我的第一篇博客文章！</p>
+<h3>支持 Markdown</h3>
+<ul>
+<li><strong>加粗</strong></li>
+<li><em>斜体</em></li>
+<li><code>行内代码</code></li>
+</ul>
+<pre><code>// 代码块
+console.log("Hello World");
+</code></pre>
+<blockquote>
+<p>引用文字</p>
+</blockquote>
+<p><a href="https://ryan650.cn">链接</a></p>
+]]></content>
+    <author>
+      <name>Ryan650</name>
+    </author>
+    <category term="杂谈"></category>
+  </entry>
 </feed>
