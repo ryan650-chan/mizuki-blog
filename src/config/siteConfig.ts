@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 export const siteConfig: SiteConfig = {
 	title: "Ryan650",
 	subtitle: "我的博客",
-	siteURL: "https://ryan650.cn/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://blog.ryan650.cn/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-08-04", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	lang: SITE_LANG,
